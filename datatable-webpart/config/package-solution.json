@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "datatable-webpart-client-side-solution",
+    "id": "c70bcf78-b22b-4597-9d1e-059ad5755a77",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/datatable-webpart.sppkg"
+  }
+}

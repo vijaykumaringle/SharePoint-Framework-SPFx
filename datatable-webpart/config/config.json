@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "data-table-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataTable/DataTableWebPart.js",
+          "manifest": "./src/webparts/dataTable/DataTableWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery":"https://code.jquery.com/jquery-3.4.1.min.js"
+  },
+  "localizedResources": {
+    "DataTableWebPartStrings": "lib/webparts/dataTable/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
